@@ -48,6 +48,27 @@ public class Assignment1 {
 
     public static void main(String[] args) {
         
+        System.out.println("Requirement 1");
+        for(int i=0;i<5;i++){
+            System.out.println(i+1);
+        }
+        System.out.println("Requirement 2");
+        int a = 10;
+        boolean stop = false;
+        while(stop!=true){
+            System.out.println(a);
+            a-=1;
+            if(a==-2){
+                stop =true;
+            }
+        }
+        System.out.println("Requirement 3");
+        for(int b=0; b<6; b++){
+            NewClass.callMeIf(b+1);
+            
+        }
+        System.out.println("Requirement 4");
+            System.out.println(NewClass.callMeSwitch());
     }
     
 }
